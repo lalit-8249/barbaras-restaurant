@@ -1,0 +1,9 @@
+Fixed issues:
+1. White screen was caused by invalid lucide-react imports: InstagramIcon and TwitterIcon were not exported.
+2. Removed unused ArrowRight import.
+3. Replaced social icons with inline SVG React components.
+4. Verified with: npm run build and npm run lint.
+
+Run steps:
+1. npm install
+2. npm run dev

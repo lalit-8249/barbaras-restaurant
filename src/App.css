@@ -1,0 +1,8 @@
+button, a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+button:focus-visible, a:focus-visible {
+  outline: 3px solid rgba(178, 31, 31, 0.35);
+  outline-offset: 3px;
+}
